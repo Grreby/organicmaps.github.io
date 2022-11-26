@@ -1,7 +1,7 @@
 {% set home = get_section(path='_index.md') %}
 {% set news = get_section(path='news/_index.md') %}
 
-<nav id="bottom_menu" role="navigation">
+<nav id="bottom-menu" role="navigation">
   {% for page in [home, news] | concat(with=home.pages) %}
   {% set translated = page.translations | filter(attribute='lang', value=lang) | first %}
   {% if translated %}
