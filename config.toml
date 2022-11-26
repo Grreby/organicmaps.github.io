@@ -73,3 +73,16 @@ install-googleplay = "Установить Organic Maps из Google Play"
 language = "Русский"
 name = "Название"
 token = "Токен"
+
+[languages.be]
+[languages.be.translations]
+address = "Адрас"
+back = "Назад"
+contact = "Звязацца с нами"
+install-appgallery = "Устанавіць Organic Maps з Huawei AppGallery"
+install-appstore = "Устанавіць Organic Maps з Apple AppStore"
+install-fdroid="Устанавіць Organic Maps з F-Droid"
+install-googleplay = "Устанавіць Organic Maps з Google Play"
+language = "Беларуская"
+name = "Назва"
+token = "Такен"
