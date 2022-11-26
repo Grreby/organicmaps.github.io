@@ -7,7 +7,6 @@ body {
   word-wrap: break-word;
 }
 
-// Top menu.
 header {
   text-align: center;
 }
@@ -126,40 +125,6 @@ footer {
   left: 0;
 }
 
-.logo {
-  background-image: url("/logos/green-on-transparent.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-origin: content-box;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.github svg {
-  fill: black;
-  @media (prefers-color-scheme: dark) {
-    fill: white;
-  }
-  display: inline-block;
-  overflow: visible!important;
-  margin-right: 0.5rem;
-}
-
-.menuitems {
-  display: flex;
-  justify-content: center;
-}
-
-.menuitem, .menuitem_active {
-  white-space: nowrap;
-  a {
-    text-decoration: none;
-  }
-}
-
 #bottom_menu {
   margin-bottom: 1em;
   a {
@@ -234,3 +199,4 @@ img {
 }
 
 @import "language_selector";
+@import "top_menu";
